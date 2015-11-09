@@ -1,0 +1,8 @@
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\bin\Debug\SapRfcTestTool.exe
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\bin\Debug\SapRfcTestTool.pdb
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.csprojResolveAssemblyReference.cache
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.Properties.Resources.resources
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.csproj.GenerateResource.Cache
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.exe
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.pdb
+D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\obj\Debug\SapRfcTestTool.FormMain.resources
