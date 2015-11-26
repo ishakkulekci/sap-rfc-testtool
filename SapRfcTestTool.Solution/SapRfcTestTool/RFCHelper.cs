@@ -120,6 +120,79 @@ namespace SapRfcTestTool
         //}
 
 
-    }
+        public DataTable RfcStructureToDataTable(IRfcStructure myrefcTable)
+        {
+            DataTable rowTable = new DataTable();
+            for (int i = 0; i <= myrefcTable.ElementCount - 1; i++)
+            {
+                rowTable.Columns.Add(myrefcTable.GetElementMetadata(i).Name);
+            }
+            DataRow row = rowTable.NewRow();
+            for (int j = 0; j <= myrefcTable.ElementCount - 1; j++)
+            {
+                row[j] = myrefcTable.GetValue(j);
+            }
+            rowTable.Rows.Add(row);
+            return rowTable;
+        }
+
+
+        public bool TestConnection()
+        {
+            bool result = false;
+
+
+            SAPDestinationConfiguration sapDestinationConfiguration = new SAPDestinationConfiguration();
+
+            
+            try
+            {
+                // ishak.kulekci 24.06.2013
+                //  Destination configuration already initialized hatasını engelleme, bunun için önce TryGetDestination kullanılır
+                RfcDestination rfcDestination = RfcDestinationManager.TryGetDestination("SAPSYSTEM");
+                if (rfcDestination == null)
+                {
+                    try
+                    {
+                        RfcDestinationManager.RegisterDestinationConfiguration(sapDestinationConfiguration);
+                    }
+                    catch (Exception ex)
+                    {
+
+                    }
+                    rfcDestination = RfcDestinationManager.GetDestination("SAPSYSTEM");
+                }
+
+                if (rfcDestination != null)
+                {
+                    rfcDestination.Ping();
+                    result = true;
+                }
+                
+
+            }
+            catch (Exception exception)
+            {
+                //throw exception;
+                result = false;
+                //throw new Exception("Connection failure error. Message:"+exception.Message);
+            }
+            finally
+            {
+                try
+                {
+                    RfcDestinationManager.UnregisterDestinationConfiguration(sapDestinationConfiguration);
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+
+            return result;
+        }
+
+
+    } // end of class
 
 }

@@ -51,6 +51,41 @@ namespace SapRfcTestTool
             return sapConnectionInfo;
         }
 
+
+        public static SAPConnectionInfo ParseSAPConnectionInfoFromUI()
+        {
+            
+            // sapConnectionInfo.ASHOST
+            // sapConnectionInfo.SYSNR
+            // sapConnectionInfo.CLIENT
+            // sapConnectionInfo.USER
+            // sapConnectionInfo.PASSWD
+            // sapConnectionInfo.LANG
+            // sapConnectionInfo.POOL_SIZE
+            // sapConnectionInfo.MAX_POOL_SIZE
+            // sapConnectionInfo.NAME
+
+            //SAPConnectionInfo sapConnectionInfo = new SAPConnectionInfo();
+
+            //sapConnectionInfo.ASHOST = FormMain.prmASHOST;
+            //sapConnectionInfo.SYSNR = FormMain.prmSYSNR;
+            //sapConnectionInfo.CLIENT = FormMain.prmCLIENT;
+
+            //sapConnectionInfo.USER = FormMain.prmUSER;
+            //sapConnectionInfo.PASSWD = FormMain.prmPASSWD;
+            //sapConnectionInfo.LANG = FormMain.prmLANG;
+
+            //sapConnectionInfo.POOL_SIZE = FormMain.prmPOOL_SIZE;
+            //sapConnectionInfo.MAX_POOL_SIZE = FormMain.prmMAX_POOL_SIZE;
+
+            //return sapConnectionInfo;
+
+            return FormMain.sapConnectionInfo;
+
+        }
+
+
+
         public static string GetRightOfEqualOperator(string stringWithEqualOperator)
         {
             string result = string.Empty;

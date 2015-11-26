@@ -24,7 +24,8 @@ namespace SapRfcTestTool
             // ishak.kulekci 06.06.2013
             // destinationname boş olmaması gerekiyor, yoksa "ERROR no symbolic destination specified" şeklinde hata veriyor
 
-            SAPConnectionInfo sapConnectionInfo = ConfigHelper.ParseSAPConnectionInfo();
+            //SAPConnectionInfo sapConnectionInfo = ConfigHelper.ParseSAPConnectionInfo();
+            SAPConnectionInfo sapConnectionInfo = ConfigHelper.ParseSAPConnectionInfoFromUI();
 
             RfcConfigParameters rfcConfigParameters = new RfcConfigParameters();
             rfcConfigParameters[RfcConfigParameters.AppServerHost] = sapConnectionInfo.ASHOST;
