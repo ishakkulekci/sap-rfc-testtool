@@ -97,7 +97,7 @@
             this.tcMain.Location = new System.Drawing.Point(12, 12);
             this.tcMain.Name = "tcMain";
             this.tcMain.SelectedIndex = 0;
-            this.tcMain.Size = new System.Drawing.Size(706, 1213);
+            this.tcMain.Size = new System.Drawing.Size(689, 1213);
             this.tcMain.TabIndex = 0;
             // 
             // tabSAPConnectionParameters
@@ -123,7 +123,7 @@
             this.tabSAPConnectionParameters.Location = new System.Drawing.Point(4, 22);
             this.tabSAPConnectionParameters.Name = "tabSAPConnectionParameters";
             this.tabSAPConnectionParameters.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSAPConnectionParameters.Size = new System.Drawing.Size(698, 1187);
+            this.tabSAPConnectionParameters.Size = new System.Drawing.Size(681, 1187);
             this.tabSAPConnectionParameters.TabIndex = 0;
             this.tabSAPConnectionParameters.Text = "SAP Bağlantı Parametreleri";
             this.tabSAPConnectionParameters.UseVisualStyleBackColor = true;
@@ -294,7 +294,7 @@
             this.tabRFCExecute.Location = new System.Drawing.Point(4, 22);
             this.tabRFCExecute.Name = "tabRFCExecute";
             this.tabRFCExecute.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRFCExecute.Size = new System.Drawing.Size(715, 1187);
+            this.tabRFCExecute.Size = new System.Drawing.Size(681, 1187);
             this.tabRFCExecute.TabIndex = 1;
             this.tabRFCExecute.Text = "RFC Çalıştırma";
             this.tabRFCExecute.UseVisualStyleBackColor = true;
@@ -306,7 +306,7 @@
             this.tcTablesToExport.Location = new System.Drawing.Point(9, 868);
             this.tcTablesToExport.Name = "tcTablesToExport";
             this.tcTablesToExport.SelectedIndex = 0;
-            this.tcTablesToExport.Size = new System.Drawing.Size(717, 265);
+            this.tcTablesToExport.Size = new System.Drawing.Size(700, 265);
             this.tcTablesToExport.TabIndex = 13;
             // 
             // gvExportParams
@@ -329,7 +329,7 @@
             this.dataGridViewTextBoxColumn10});
             this.gvExportParams.Location = new System.Drawing.Point(9, 645);
             this.gvExportParams.Name = "gvExportParams";
-            this.gvExportParams.Size = new System.Drawing.Size(717, 184);
+            this.gvExportParams.Size = new System.Drawing.Size(700, 184);
             this.gvExportParams.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
@@ -439,7 +439,7 @@
             this.tcTablesToImport.Location = new System.Drawing.Point(9, 300);
             this.tcTablesToImport.Name = "tcTablesToImport";
             this.tcTablesToImport.SelectedIndex = 0;
-            this.tcTablesToImport.Size = new System.Drawing.Size(717, 265);
+            this.tcTablesToImport.Size = new System.Drawing.Size(700, 265);
             this.tcTablesToImport.TabIndex = 8;
             // 
             // label3
@@ -506,7 +506,7 @@
             this.cDecimals});
             this.gvImportParams.Location = new System.Drawing.Point(9, 73);
             this.gvImportParams.Name = "gvImportParams";
-            this.gvImportParams.Size = new System.Drawing.Size(717, 184);
+            this.gvImportParams.Size = new System.Drawing.Size(700, 184);
             this.gvImportParams.TabIndex = 2;
             // 
             // cName

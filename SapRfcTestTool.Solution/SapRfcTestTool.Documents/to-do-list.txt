@@ -1,0 +1,9 @@
+﻿
+How to change SAP RegisterDestinationConfiguration assigned parameter values on runtime
+http://scn.sap.com/thread/3774168
+
+
+to-do-list
+- tablolardan import parametre almayı sağlama yapılacak
+
+ 

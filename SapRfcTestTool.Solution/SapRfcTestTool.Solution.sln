@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapRfcTestTool", "SapRfcTestTool\SapRfcTestTool.csproj", "{A8B83480-F9C4-499E-BFCD-C06E7285C5D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapRfcTestTool.Documents", "SapRfcTestTool.Documents\SapRfcTestTool.Documents.csproj", "{1FCB678E-8C57-4A95-993F-3C89EACE5595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A8B83480-F9C4-499E-BFCD-C06E7285C5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B83480-F9C4-499E-BFCD-C06E7285C5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B83480-F9C4-499E-BFCD-C06E7285C5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCB678E-8C57-4A95-993F-3C89EACE5595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCB678E-8C57-4A95-993F-3C89EACE5595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCB678E-8C57-4A95-993F-3C89EACE5595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCB678E-8C57-4A95-993F-3C89EACE5595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

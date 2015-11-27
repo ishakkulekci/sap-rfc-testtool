@@ -147,6 +147,7 @@ namespace SapRfcTestTool
             
             try
             {
+
                 // ishak.kulekci 24.06.2013
                 //  Destination configuration already initialized hatasını engelleme, bunun için önce TryGetDestination kullanılır
                 RfcDestination rfcDestination = RfcDestinationManager.TryGetDestination("SAPSYSTEM");
