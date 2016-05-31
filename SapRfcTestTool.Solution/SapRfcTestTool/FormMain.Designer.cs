@@ -97,7 +97,7 @@
             this.tcMain.Location = new System.Drawing.Point(12, 12);
             this.tcMain.Name = "tcMain";
             this.tcMain.SelectedIndex = 0;
-            this.tcMain.Size = new System.Drawing.Size(689, 1213);
+            this.tcMain.Size = new System.Drawing.Size(672, 1213);
             this.tcMain.TabIndex = 0;
             // 
             // tabSAPConnectionParameters
@@ -123,7 +123,7 @@
             this.tabSAPConnectionParameters.Location = new System.Drawing.Point(4, 22);
             this.tabSAPConnectionParameters.Name = "tabSAPConnectionParameters";
             this.tabSAPConnectionParameters.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSAPConnectionParameters.Size = new System.Drawing.Size(681, 1187);
+            this.tabSAPConnectionParameters.Size = new System.Drawing.Size(664, 1187);
             this.tabSAPConnectionParameters.TabIndex = 0;
             this.tabSAPConnectionParameters.Text = "SAP Bağlantı Parametreleri";
             this.tabSAPConnectionParameters.UseVisualStyleBackColor = true;

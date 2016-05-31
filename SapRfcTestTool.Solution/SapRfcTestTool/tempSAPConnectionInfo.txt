@@ -1,1 +1,1 @@
-﻿
+﻿{"NAME":null,"USER":"","PASSWD":"","CLIENT":"","LANG":"","ASHOST":"","SYSNR":"","POOL_SIZE":"","MAX_POOL_SIZE":""}

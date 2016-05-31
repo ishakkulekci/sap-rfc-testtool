@@ -16,3 +16,21 @@ SAP.Middleware.Connector.RfcConfigurationException: system number must not be nu
    at SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
    at SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
    at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
+**** Log file opened by process 13036 at 2016-05-31 08:26:24 (UTC+03:00 Turkey Daylight Time)
+
+SAP .NET Connector 3.0 with file version 3.0.11.0 running on 32-bit .NET Framework 4.0.30319.42000
+Program: D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\bin\Debug\SapRfcTestTool.exe
+Working directory: D:\prj_ishak_github\sap-rfc-testtool\SapRfcTestTool.Solution\SapRfcTestTool\bin\Debug
+Operating system:  Enterprise 64-bit 
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 426
+Hostname: ISHAKKU-NB, IP address: 192.168.56.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-05-31 08:26:24.775 [Thread 1]
+SAP.Middleware.Connector.RfcConfigurationException: system number must not be null or empty
+   at SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopyTo(RfcConfigParameters target)
+   at SAP.Middleware.Connector.RfcConfigParameters.NormalizedCopy()
+   at SAP.Middleware.Connector.RfcDestination..ctor(String destName, RfcConfigParameters parameters)
+   at SAP.Middleware.Connector.RfcDestinationManager.GetDestination(String destinationName)
